@@ -1,0 +1,10 @@
+# Core data manipulation
+pandas
+
+# Visualization
+matplotlib
+seaborn
+
+# Econometrics & statistical modeling
+statsmodels
+linearmodels
