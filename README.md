@@ -71,4 +71,4 @@ co2-emissions/
 ---
 
 ### Acknowledgements
-This project is being built with the help of [ChatGPT (OpenAI)](https://chat.openai.com), which has guided me through setting up the pipeline, notebooks, and project structure. This project serves as practice creating data pipelines, organizing projects, and making data digestible to non-academic audiences. I hope you enjoy!
+This project is being built with the help of [ChatGPT (OpenAI)](https://chat.openai.com), which has guided me through setting up the pipeline, notebooks, and project structure. This project serves as a practice for creating data pipelines, organizing projects, and making data digestible for non-academic audiences. I hope you enjoy!
