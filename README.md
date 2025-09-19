@@ -55,7 +55,7 @@ co2-emissions/
 ---
 
 ## Notes
-- This project is ongoing — notebooks and results may change as methods are refined.  
+- This project is ongoing; notebooks and results may change as methods are refined.  
 - Final deliverables will include merged datasets, visualizations, and forecasts.  
 
 ---
