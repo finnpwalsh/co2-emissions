@@ -1,6 +1,6 @@
 # CO2 Emissions Project
 
-This repository is a **running project** exploring global CO2 emissions, renewable energy, and related World Bank indicators.  It is actively under development — code, structure, and results will evolve as the analysis progresses.  
+This repository is a running project exploring global CO2 emissions, renewable energy, and related World Bank indicators.  It is actively under development — code, structure, and results will evolve as the analysis progresses.  
 
 ---
 
@@ -55,7 +55,7 @@ co2-emissions/
 ---
 
 ## Notes
-- This project is **ongoing** — notebooks and results may change as methods are refined.  
+- This project is ongoing — notebooks and results may change as methods are refined.  
 - Final deliverables will include merged datasets, visualizations, and forecasts.  
 
 ---
