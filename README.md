@@ -8,18 +8,33 @@ This repository is a running project exploring global CO2 emissions, renewable e
 ```
 co2-emissions/
 ├─ data/
-│  ├─ raw/          # original OWID + WB CSVs
-│  └─ processed/    # cleaned, analysis-ready versions
+│  ├─ raw/           # original OWID + WB CSVs
+│  ├─ bronze/        # extracted
+│  ├─ silver/        # transformed
+│  └─ gold/          # analysis-ready
 ├─ notebooks/
 │  ├─ owid_analysis.ipynb   # OWID dataset exploration
 │  ├─ wb_analysis.ipynb     # World Bank dataset exploration
 │  ├─ merged_analysis.ipynb # merged dataset (future)
 │  └─ forecasting.ipynb     # forecasting experiments (future)
 ├─ src/
-│  ├─ config.py     # central paths
-│  └─ transform.py  # raw → processed cleaning pipeline
+│  ├─ utils/
+│  │  ├─ __init__.py
+│  │  ├─ checks.py
+│  │  ├─ config.py
+│  │  ├─ io.py
+│  │  ├─ log.py
+│  │  ├─ schema.py
+│  │  └─ transform.py
+│  ├─ bronze_owid.py
+│  ├─ bronze_wb.py
+│  ├─ silver_owid.py
+│  ├─ silver_wb.py
+│  ├─ silver_merged.py
+│  └─ gold_co2.py    # prepare data for analysis
 ├─ reports/
 │  └─ figures/      # saved plots/outputs
+├─ requirements.txt
 └─ README.md
 ```
 
