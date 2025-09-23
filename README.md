@@ -40,10 +40,15 @@ co2-emissions/
 
 ---
 
-## Current Progress
+## Variables
 **UNDER CONSTRUCTION**
-- Raw → processed pipeline (`transform.py`)  
-- Initial OWID + WB notebooks created  
+
+---
+
+## Current Progress
+- Raw → Bronze → Silver → Gold pipeline
+   - Current culmination: `silver_merged.py`
+- Initial OWID, WB, Merged, and Forecast notebooks created  
 - Merged analysis and forecasting coming soon  
 
 ---
