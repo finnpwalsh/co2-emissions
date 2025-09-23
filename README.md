@@ -65,7 +65,10 @@ co2-emissions/
    pip install -r requirements.txt
    ```
 3. Run the transformation pipeline:
+   ```bash
    **UNDER CONSTRUCTION**
+   ```
+
 4. Open the notebooks (start Jupyter from the repo root):
    ```bash
    jupyter notebook
