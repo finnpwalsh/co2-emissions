@@ -41,6 +41,7 @@ co2-emissions/
 ---
 
 ## Current Progress
+**UNDER CONSTRUCTION**
 - Raw → processed pipeline (`transform.py`)  
 - Initial OWID + WB notebooks created  
 - Merged analysis and forecasting coming soon  
@@ -48,6 +49,7 @@ co2-emissions/
 ---
 
 ## How to Run
+**UNDER CONSTRUCTION**
 1. Clone the repo:
    ```bash
    git clone https://github.com/<your-username>/co2-emissions.git
@@ -58,10 +60,7 @@ co2-emissions/
    pip install -r requirements.txt
    ```
 3. Run the transformation pipeline:
-   ```bash
-   python -m src.transform
-   ```
-   This produces cleaned CSVs in `data/processed/`.
+   **UNDER CONSTRUCTION**
 4. Open the notebooks (start Jupyter from the repo root):
    ```bash
    jupyter notebook
@@ -76,9 +75,8 @@ co2-emissions/
 ---
 
 ## Planned Features
-- Expand cleaning pipeline with stronger type conversions (numeric coercion, handling missing values).  
-- Dedicated `wb_analysis.ipynb` reshaping workflow (wide → long).  
-- Merge OWID and WB datasets for joint exploration.  
+- Impute missing values in `silver_merged.ipynb`.
+- Implement `gold_co2.ipynb1`. 
 - Enhanced exploratory data analysis (EDA) with time series plots and country comparisons.  
 - Forecasting experiments with ARIMA, Prophet, or ML-based models.  
 - Dashboards and polished visuals for reporting.  
